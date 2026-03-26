@@ -1,5 +1,5 @@
 {% set name = "calkulate" %}
-{% set version = "23.7.0" %}
+{% set version = "23.7.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/calkulate-{{ version }}.tar.gz
-  sha256: 2083daa44ce5b88a77c53ce090cff872d9c21d9ba8b73f413fde4b83ba8f81d1
+  sha256: 88c2f784f1c65ff3e4c5b3799e65f4792e66126035f1df9fd58e80ff4651926f
 
 build:
   noarch: python
